@@ -1,0 +1,89 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+#karte{
+    width: 350px;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+.table-hover tbody tr:hover {
+    background-color: grey;
+}
+
+#formular{
+    width: 800px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#cardHeadUni{
+    background-image: linear-gradient(to right, rgb(1, 1, 148) 0%, white 90%);
+    color: white;
+}
+
+
+#cardHeadTh{
+    background-image: linear-gradient(to right, darkorange 0%, white 90%);
+    color: white;
+}
+
+#cardInfo{
+    margin-top:10px;
+
+}
+
+#updated{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.submit{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+.form-control{
+    width:180px;
+}
+
+.form-select{
+    width:190px
+}
+
+
+.link-hover {
+    color: #000000;
+    text-decoration: none;
+   
+  
+  }
+  
+  .link-hover:hover {
+    display: inline-block;
+    color: #fff;
+    background-color: #bcbcbc;
+    transition: all 0.3s ease;
+  
+  
+  }
+  
+  .link-hover:hover {
+    transform: scale(1.1);
+  }
